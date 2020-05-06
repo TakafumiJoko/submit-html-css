@@ -60,3 +60,24 @@ main {
     padding: 3px;
     background-color: #ff8844;
 }
+
+@media screen and (max-width:768px) {
+    main {
+        width: 100%;
+    }
+
+    .content-box {
+        float: none;
+        width: 90%;
+        margin:0 5% 20px 5%;
+    }
+
+    .content-box:last-child {
+        margin-bottom: 0;
+    } 
+
+    .content-img1,.content-img2,.content-img3 {
+        height: 120px;
+        background-position: center;
+    }
+}
